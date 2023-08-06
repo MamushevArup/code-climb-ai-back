@@ -5,7 +5,5 @@ from . import router
 
 @router.get("/in")
 def updload_file_id(
-
-    jwt_data:JWTData=Depends(parse_jwt_user_data),
 ):
-    return {"val" : jwt_data.user_id}
+    return {"val" : "Hey"}
