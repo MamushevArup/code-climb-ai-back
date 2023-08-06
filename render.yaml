@@ -3,7 +3,7 @@ services:
     name: fastapi
     runtime: docker
     plan: free
-    repo: https://github.com/FizzBuzz00/fastapi-boilerplate.git
+    repo: https://github.com/MamushevArup/code-climb-ai-back
     region: frankfurt
     branch: main
     envVars:
